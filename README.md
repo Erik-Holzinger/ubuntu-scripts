@@ -45,3 +45,8 @@ OnCalendar=*-*-* *:*:00
 [Install]
 WantedBy=timers.target
 ```
+
+## update-discord
+Since discord does not provide an apt repository, this script can be used to download and install the latest deb package of Discord if a newer version is available.
+
+For convince, a systemd trigger can be defined.
